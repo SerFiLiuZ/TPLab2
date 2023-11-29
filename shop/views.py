@@ -1,8 +1,6 @@
 from django.shortcuts import render
-from django.http import HttpResponse
 from django.views.generic.edit import CreateView
 from django.shortcuts import redirect
-from django.db import transaction
 
 from .models import Product, Purchase
 
