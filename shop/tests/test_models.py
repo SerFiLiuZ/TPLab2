@@ -59,28 +59,20 @@ class PurchaseTestCase(TransactionTestCase):
         self.assertTrue(Purchase.objects.get(product=self.product_book).date.replace(microsecond=0) == self.datetime.replace(microsecond=0))
     
     def test_dec_for_db(self):
-        # Получаем начальное количество продукта
         initial_count = self.product_bracelet.count
 
-        # Вызываем функцию dec_for_db
         PurchaseCreate.dec_for_db(self.product_bracelet)
 
-        # Обновляем продукт из базы данных
         self.product_bracelet.refresh_from_db()
-
-        # Проверяем, что количество уменьшилось на 1
+        
         self.assertEqual(self.product_bracelet.count, initial_count - 1)
 
     def test_product_list_view_with_zero_quantity(self):
-        # Формируем URL для списка товаров
         url = reverse('index')
 
-        # Отправляем GET-запрос на URL
         response = self.client.get(url)
 
-        # Проверяем, что ответ содержит ожидаемый HTML код для товара с количеством 0
         self.assertContains(response, f'<p>Нет в наличии</p>')
 
-        # Проверяем, что запрос завершился успешно
         self.assertEqual(response.status_code, 200)
 

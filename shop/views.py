@@ -6,12 +6,10 @@ from django.db import transaction
 
 from .models import Product, Purchase
 
-# Create your views here.
 def index(request):
     products = Product.objects.all()
     context = {'products': products}
     return render(request, 'shop/index.html', context)
-
 
 class PurchaseCreate(CreateView):
     model = Purchase
@@ -20,7 +18,6 @@ class PurchaseCreate(CreateView):
     def form_valid(self, form):
         self.object = form.save()
 
-        # Проблема может быть здесь
         self.dec_for_db(self.object.product)
         
         return redirect('index')
