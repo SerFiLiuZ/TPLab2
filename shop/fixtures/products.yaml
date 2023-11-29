@@ -1,15 +1,18 @@
 - model: shop.product
   pk: 1
   fields:
-    name: Стол
+    name: Кольцо
     price: 2000
+    count: 3
 - model: shop.product
   pk: 2
   fields:
-    name: Стул
+    name: Цепочка
     price: 1000
+    count: 5
 - model: shop.product
   pk: 3
   fields:
-    name: Табурет
+    name: Браслет
     price: 500
+    count: 1
