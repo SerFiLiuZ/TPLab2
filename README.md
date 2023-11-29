@@ -60,7 +60,8 @@
 
 UML-диаграмма классов моделей:
 
-![классы модели drawio](https://github.com/SerFiLiuZ/TPLab2/assets/63652192/5c9425d1-c937-44d4-ba2f-bd55989d5897)
+![классы модели drawio (1)](https://github.com/SerFiLiuZ/TPLab2/assets/63652192/b2971522-54a7-4680-b900-52cf8038fbf3)
+
 
 
 
