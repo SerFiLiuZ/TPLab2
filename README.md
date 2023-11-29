@@ -58,4 +58,8 @@
 
 ![финиш](https://github.com/SerFiLiuZ/TPLab2/assets/63652192/933e5eeb-edbb-4949-807d-2bcf0c928057)
 
+UML-диаграмма классов моделей:
+
+![классы модели drawio](https://github.com/SerFiLiuZ/TPLab2/assets/63652192/5c9425d1-c937-44d4-ba2f-bd55989d5897)
+
 
