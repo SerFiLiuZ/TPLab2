@@ -62,6 +62,8 @@ UML-диаграмма классов моделей:
 
 ![классы модели drawio (2)](https://github.com/SerFiLiuZ/TPLab2/assets/63652192/6bc17983-5dad-49ef-9a0d-ecbc7e13f433)
 
+UML-диаграмма классов для тестов:
 
+![классы для тестов drawio](https://github.com/SerFiLiuZ/TPLab2/assets/63652192/88e11ae5-a342-4136-97bb-be18907873f0)
 
 
