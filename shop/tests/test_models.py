@@ -1,10 +1,5 @@
-from django.test import TestCase
 from shop.models import Product, Purchase
-from datetime import datetime
-from django.urls import reverse
-from django.test import TransactionTestCase
 from django.test import TestCase, TransactionTestCase
-from shop.models import Product, Purchase
 from datetime import datetime
 from django.urls import reverse
 from django.db import transaction
