@@ -50,7 +50,7 @@
 
 ![старт](https://github.com/SerFiLiuZ/TPLab2/assets/63652192/190579f2-49ed-4d07-82ad-f05fb5b5ef81)
 
-Страница покупки(покупается кольцо):
+Страница покупки(покупается цепочка):
 
 ![покупка](https://github.com/SerFiLiuZ/TPLab2/assets/63652192/1623303c-d723-41d2-ba67-54ff358c9dd2)
 
