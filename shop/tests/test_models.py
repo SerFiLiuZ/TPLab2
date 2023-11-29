@@ -10,8 +10,6 @@ from django.urls import reverse
 from django.db import transaction
 from shop.views import PurchaseCreate
 
-
-
 import time
 
 class ProductTestCase(TestCase):
