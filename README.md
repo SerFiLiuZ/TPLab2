@@ -48,8 +48,12 @@
 
 Внешний вид стартовой страницы до покупки предмета:
 ![старт](https://github.com/SerFiLiuZ/TPLab2/assets/63652192/190579f2-49ed-4d07-82ad-f05fb5b5ef81)
+
+
 Страница покупки(покупается кольцо):
 ![покапка](https://github.com/SerFiLiuZ/TPLab2/assets/63652192/b44b548e-abf6-44ed-887c-b10974629170)
+
+
 Внешний вид стартовой страницы после покупки предмета:
 ![финиш](https://github.com/SerFiLiuZ/TPLab2/assets/63652192/933e5eeb-edbb-4949-807d-2bcf0c928057)
 
