@@ -19,7 +19,13 @@
                     <td><p>{{ p.name }}</p></td>
                     <td><p>{{ p.price }}</p></td>
                     <td><p>{{ p.count }}</p></td>
-                    <td><p><a href="/buy/{{ p.id }}">Купить</a></p></td>
+                    <td>
+                        {% if p.count > 0 %}
+                            <p><a href="/buy/{{ p.id }}">Купить</a></p>
+                        {% else %}
+                            <p>Нет в наличии</p>
+                        {% endif %}
+                    </td>
                 </tr>
             {% endfor %}
         </table>
